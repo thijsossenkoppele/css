@@ -12,11 +12,6 @@ cflearn { color:#F000F0; }
 .cflearn { background-color:#400040; }
 cfmath { font-style: italic; }
 
-group_article div.bibbase_group i+span { display: none; }
-group_inproceedings div.bibbase_group i+span { display: none; }
-group_article div.bibbase_group i:after { content: " Journal Articles" }
-group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
-
 
 ul { margin-top:0.2em; margin-bottom:0.0em; }
 h4,h5,h6 { margin-top:2em; margin-bottom:0.0em; }
@@ -94,6 +89,18 @@ td.bibbase_group {
  -moz-box-shadow: 3px 3px 3px #888;
  -webkit-box-shadow: 3px 3px 3px #888;
  padding: 3px 3px 3px 3px;
+}
+
+.bibbase_group span {
+   display: none;
+}
+
+#group_article div i:after {
+  content: " Journal Articles"
+}
+
+#group_inproceedings div i:after {
+  content: " Conference Publications"
 }
 
 span.bibbase_group_count {

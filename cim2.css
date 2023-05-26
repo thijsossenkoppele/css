@@ -1,0 +1,143 @@
+
+cfdef { color:green; }
+cfassume { color:red; }
+cfdisagree { color:olive; }
+cfdiff { color:orange; }
+cflike { color:blue; }
+cfemph { color:yellow; }
+cfcomment { font-family: serif; font-style: italic; }
+cfidea { font-family: serif; font-style: italic; color:#4040C0 }
+cfclass { color:#409000; font-family: serif; }
+cflearn { color:#F000F0; }
+.cflearn { background-color:#400040; }
+cfmath { font-style: italic; }
+
+
+ul { margin-top:0.2em; margin-bottom:0.0em; }
+h4,h5,h6 { margin-top:2em; margin-bottom:0.0em; }
+
+
+/* for dashed HRs */
+hr .dashed { border:1px dashed }
+
+/* notes background */
+td .notes { background-color:#B0B0B0; }
+
+
+/* a:link { color:#A56F49; text-decoration:none; } */
+/* a:link { color:#00A000; text-decoration:none; } */
+/* a:visited { color:#966D51; text-decoration:none;}  */
+/* a:hover { color:#FAB200; text-decoration:underline;} */
+/* a:active { color:##5E6434; text-decoration:none;} */
+/* a:focus { font-style:italic; text-decoration:none;} */
+
+
+
+A:link {text-decoration: none; color:#9D9101}
+A:visited {text-decoration: none; color:#C7B446}
+A:active {text-decoration: none}
+A:hover {text-decoration: none; color:#3B83BD;}
+
+a:focus { font-style:italic; text-decoration:none;}
+
+/* body { color:#6A635B; background-color:#DED7C4; line-height:1.2em; } */
+body { background-color:#FFFFFF;
+       margin-left:100px; }
+* { color:black; 
+    font-family:'Georgia'}
+
+
+body.background { background-image:url(http://www.cs.toronto.edu/~fritz/resources/black_grey.png); background-repeat:repeat }
+
+frame.background { background-image:url(http://www.cs.toronto.edu/~fritz/resources/black_grey.png);} 
+
+img.img_fancy {
+ -moz-border-radius: 6px 6px 6px 6px;
+ -webkit-border-radius: 6px;
+ -moz-box-shadow: 5px 5px 5px #888;
+ -webkit-box-shadow: 5px 5px 5px #888;
+}
+
+
+/*tr.bibbase_group {
+# background-color: #E0E0F0;
+ background-color: #B1BDE6; 
+ font-style: italic;
+ font-size: larger;
+ -moz-border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px;
+ -webkit-border-top-left-radius: 4px;
+ -webkit-border-bottom-right-radius: 4px;
+}*/
+
+.bibbase_amazon {
+ display: none;
+}
+
+td.bibbase_group {
+# background-color: #E0E0F0;
+ background-color: #B1BDE6; 
+ background-image: url(http://www.cs.toronto.edu/~fritz/resources/blueish_grad.png); 
+ font-style: italics;
+ font-size: larger;
+ text-shadow: 0px 0px 3px #FFFFFF;
+ border-radius: 4px 4px 4px 4px;
+ -moz-border-radius: 4px 4px 4px 4px;
+ -webkit-border-radius: 4px;
+ -webkit-border-top-left-radius: 4px;
+ -webkit-border-bottom-right-radius: 4px;
+ -moz-box-shadow: 3px 3px 3px #888;
+ -webkit-box-shadow: 3px 3px 3px #888;
+ padding: 3px 3px 3px 3px;
+}
+
+#group_article div.bibbase_group i+span { display: none; }
+#group_inproceedings div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
+#group_mastersthesis div.bibbase_group i+span { display: none; }
+#group_article div.bibbase_group i:after { content: " Journal Articles" }
+#group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
+#group_incollection div.bibbase_group i:after { content: " Book Chapters" }
+#group_mastersthesis div.bibbase_group i:after { content: " MA Theses" }
+
+
+span.bibbase_group_count {
+    font-size: smaller;
+}
+
+#tr.bibbase_group:before { content:" " }
+#tr.bibbase_paper:before { content:" " }
+#td.bibbase_paper { 
+# float: right; 
+#}
+
+#img.bibbase_icon {
+# float: left;
+#}
+
+img.bibbase_icon {
+# display: none;
+}		    
+span.bibbase_icon_text {
+ display: none;
+}		    
+
+#br.bibbase_paper_content {
+# display: none;
+#}
+
+#span.bibbase_paper_content {
+# float: right;
+#}
+
+#span.bibbase_paper_venue {
+# float: right;
+#}
+
+#span.bibbase_paper_note {
+# float: right;
+#}
+
+#h3 {
+#   text-shadow: 0px 0px 5px #FFFFFF;
+#}

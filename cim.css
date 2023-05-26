@@ -12,10 +12,10 @@ cflearn { color:#F000F0; }
 .cflearn { background-color:#400040; }
 cfmath { font-style: italic; }
 
-#group_article div.bibbase_group i+span { display: none; }
-#group_inproceedings div.bibbase_group i+span { display: none; }
-#group_article div.bibbase_group i:after { content: " Journal Articles" }
-#group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
+group_article div.bibbase_group i+span { display: none; }
+group_inproceedings div.bibbase_group i+span { display: none; }
+group_article div.bibbase_group i:after { content: " Journal Articles" }
+group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
 
 
 ul { margin-top:0.2em; margin-bottom:0.0em; }

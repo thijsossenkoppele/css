@@ -93,8 +93,13 @@ td.bibbase_group {
 
 #group_article div.bibbase_group i+span { display: none; }
 #group_inproceedings div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
+#group_mastersthesis div.bibbase_group i+span { display: none; }
 #group_article div.bibbase_group i:after { content: " Journal Articles" }
 #group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
+#group_incollection div.bibbase_group i:after { content: " Book Chapters" }
+#group_mastersthesis div.bibbase_group i:after { content: " MA Theses" }
+
 
 span.bibbase_group_count {
     font-size: smaller;

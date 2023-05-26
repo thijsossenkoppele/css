@@ -91,17 +91,10 @@ td.bibbase_group {
  padding: 3px 3px 3px 3px;
 }
 
-.bibbase_group span {
-   display: none;
-}
-
-#group_article div i:after {
-  content: " Journal Articles"
-}
-
-#group_inproceedings div i:after {
-  content: " Conference Publications"
-}
+#group_article div.bibbase_group i+span { display: none; }
+#group_inproceedings div.bibbase_group i+span { display: none; }
+#group_article div.bibbase_group i:after { content: " Journal Articles" }
+#group_inproceedings div.bibbase_group i:after { content: " Conference Publications" }
 
 span.bibbase_group_count {
     font-size: smaller;
